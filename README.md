@@ -7,3 +7,5 @@ Search Engine is like google search engine, which can help you find information 
 Shooting Alert extracts shooting news from a specific website
 
 In most cases, you know what you are looking for, and it's a few clicks away. These two examples can be combined to make a powerful tool. For example, you want to extract someone 's profile and analyze his/her Facebook behavior who said some words in a Messager group.
+
+If you want to interact with a dynamic webpage, which relies on Javascript/php, and download updating information, you can see [another example](https://github.com/LongZhai/travel_guide)
