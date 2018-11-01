@@ -12,6 +12,7 @@ def send_email(data):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
+    # go th this website : https://myaccount.google.com/lesssecureapps to allow this program to login 
     server.login(gmail_sender, gmail_passwd)
 
     BODY = '\r\n'.join(['To: %s' % TO,
